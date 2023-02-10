@@ -4,12 +4,22 @@ using namespace std;
 
 int main()
 {
+     int* startVals;
+    cout<<"Enter number of data entries"<<endl;
+    int numEntries;
+    cin >> numEntries;
+    if(numEntries > 0){
+         startVals = new int[numEntries]();
+        cout<< "Enter first value"<<endl;
+        cin >> startVals[0];
+        for(int i = 1; i < numEntries; ++i){
+            cout<< "Enter next Value"<<endl;
+            cin >> startVals[i];
+        }
+    }
 
-
-    int startVals[] = {2 ,4, 2 , 8, 9, 12, 33, 1};
-    int k = sizeof(startVals)/sizeof(int);
     Calculator* original = new Calculator();
-    cout << original->computeSum(startVals, k)<<endl;
-    cout << original->computeProduct(startVals, k)<<endl;
+    cout << original->computeSum(startVals, numEntries)<<endl;
+    cout << original->computeProduct(startVals, numEntries)<<endl;
     return 0;
 }
