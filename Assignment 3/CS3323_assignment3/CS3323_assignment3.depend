@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1675996714 source:c:\users\19189\onedrive\documents\software eng\assignment 3\cs3323_assignment3\main.cpp
+	<iostream>
+	"Calculator.h"
+
+1675997041 source:c:\users\19189\onedrive\documents\software eng\assignment 3\cs3323_assignment3\src\calculator.cpp
+	"Calculator.h"
+
+1675995373 c:\users\19189\onedrive\documents\software eng\assignment 3\cs3323_assignment3\include\calculator.h
+
