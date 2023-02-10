@@ -19,7 +19,13 @@ int main()
     }
 
     Calculator* original = new Calculator();
-    cout << original->computeSum(startVals, numEntries)<<endl;
-    cout << original->computeProduct(startVals, numEntries)<<endl;
+    cout << "Sum"<< original->computeSum(startVals, numEntries)<<endl;
+    cout << "Product"<< original->computeProduct(startVals, numEntries)<<endl;
+    cout<<"Printing Reverse Values"<<endl;
+    int* reverseVals = original->flipOrder(startVals, numEntries);
+    for(int t = 0; t < numEntries -1; ++t){
+        cout<<reverseVals[t] << ", ";
+    }
+    cout<<reverseVals[numEntries - 1] <<endl;
     return 0;
 }
