@@ -8,6 +8,7 @@ class Calculator
         Calculator();
         int computeSum(int* allVals, int length);
         int computeProduct(int* allVals, int length);
+        int* flipOrder(int* allVals, int length);
         virtual ~Calculator();
 
     protected:
