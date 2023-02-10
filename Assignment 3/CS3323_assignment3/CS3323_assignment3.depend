@@ -8,11 +8,19 @@
 
 1675995373 c:\users\19189\onedrive\documents\software eng\assignment 3\cs3323_assignment3\include\calculator.h
 
+<<<<<<< HEAD
 1676047252 source:c:\users\19189\onedrive\documents\software eng\ou-cs3203-assignment3\assignment 3\cs3323_assignment3\main.cpp
 	<iostream>
 	"Calculator.h"
 
 1676048579 c:\users\19189\onedrive\documents\software eng\ou-cs3203-assignment3\assignment 3\cs3323_assignment3\include\calculator.h
+=======
+1676053334 source:c:\users\19189\onedrive\documents\software eng\ou-cs3203-assignment3\assignment 3\cs3323_assignment3\main.cpp
+	<iostream>
+	"Calculator.h"
+
+1676053334 c:\users\19189\onedrive\documents\software eng\ou-cs3203-assignment3\assignment 3\cs3323_assignment3\include\calculator.h
+>>>>>>> 94105a7 (part 10 commit with new branch)
 
 1676049002 source:c:\users\19189\onedrive\documents\software eng\ou-cs3203-assignment3\assignment 3\cs3323_assignment3\src\calculator.cpp
 	"Calculator.h"

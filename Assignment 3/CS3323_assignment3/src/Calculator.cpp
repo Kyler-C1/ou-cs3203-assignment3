@@ -27,6 +27,8 @@ int Calculator::computeProduct(int* allVals, int length){
     }
     if (length <= 0) product = 0;
     return product;
+
+    //added comments for the part 10
 }
 
 int* Calculator::flipOrder(int* allVals, int length){
