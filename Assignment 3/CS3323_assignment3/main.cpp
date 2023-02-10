@@ -10,5 +10,6 @@ int main()
     int k = sizeof(startVals)/sizeof(int);
     Calculator* original = new Calculator();
     cout << original->computeSum(startVals, k)<<endl;
+    cout << original->computeProduct(startVals, k)<<endl;
     return 0;
 }
